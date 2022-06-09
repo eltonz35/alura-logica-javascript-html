@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pulaLinha() {
+
+		document.write("<br>");
+
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+
+	}
+
+	var anosQuePassaram = 522; //anos
+	var mediaIdade = 28; //anos
+
+	var mediaGeracao = anosQuePassaram / mediaIdade; 
+
+	mostra("Desde 1500, passaram " + (Math.round(mediaGeracao) ) + " Gerações." );
+
+
+</script>
